@@ -75,8 +75,8 @@ header {
     border: 3px solid rgb(30, 30, 31);
     overflow: hidden;
     background-color: rgb(49, 50, 51);
-    max-width: 100%; /* Добавлено, чтобы блоки не выходили за рамки */
-    box-sizing: border-box; /* Убедитесь, что границы учитываются в ширине */
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .grid-block img {
