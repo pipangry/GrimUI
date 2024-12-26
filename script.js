@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function openTab(tabId) {
     const radioToSelect = document.querySelector(`input[name="tabs"][id="${tabId}"]`);
     if (radioToSelect) {
+        window.scrollTo(0, 0);
         setTimeout(() => {
             radioToSelect.checked = true; 
             loadContent(radioToSelect.value); 
