@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrimUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Grim UI</h1>
+    <div class="gray-border"></div>
+</header>
+
+<div class="main-panel">
+    <div class="loader" id="loader">
+        <img src="public/loader.gif" alt="Loading...">
+    </div>
+    <div class="image-panel">
+
+    </div>
+    <div class="text">
+        <h1>Grim UI</h1>
+        The most powerful and customizable Form UI.
+        Uses dynamic structure, advanced technologies and incredble optimization.
+    </div>
+</div>
+
+<div class="group">
+    <div class="radio-group">
+        <input type="radio" id="tabDescription" name="tabs" value="content/description.html" checked>
+        <label for="tabDescription">Description</label>
+    
+        <input type="radio" id="tabContents" name="tabs" value="content/showcase.html">
+        <label for="tabContents">Preview content</label>
+    
+        <input type="radio" id="tabMore" name="tabs" value="content/more.html">
+        <label for="tabMore">More</label>
+    </div>
+</div>
+
+<div class="flex">
+    <div class="loader" id="contentLoader">
+        <img src="public/loader.gif" alt="Loading...">
+    </div>
+</div>
+<div id="content"></div>
+
+<div class="footer">
+    <span>GrimUI by pipa_ngry</span>
+    <span style="color: rgb(197, 197, 197)">&copy; pipa_ngry 2024</span>
+</div>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>

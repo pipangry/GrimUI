@@ -1,0 +1,96 @@
+//Hello! Welcome to GrimUI text documentation!
+//All keys hided because you reading preview documentation
+{
+    "button_background_controls": {
+        "disable_background": "<hided>", //Disables background. But top_background_padding and bottom_background_padding still remain as paddings and you need to remove them.
+        "disable_top_background_padding": "<hided>", //Top background border. Hides if you use no_height, but still remains as padding.
+        "top_form_separator_padding": "<hided>", //Top form separator padding. Can't be uncollisioned with no_height.
+        "disable_bottom_background_padding": "<hided>", //Bottom background border. Hides if you use no_height, but still remains as padding.
+        "bottom_form_separator_padding": "<hided>", //Bottom form separator padding. Can't be uncollisioned with no_height.
+        "retreat_button_root": "<hided>" //Retreat 1px from top of dark button border.
+    },
+    "button_size_and_collision_controls": {
+        "no_height": "<hided>", //Disables button collision. Note that elements such as tip and form_separator_padding are not allowed to disable collisions
+        "disable_size32": "<hided>", //Default button size. Can be stacked with other sizes.
+        "size3": "<hided>", //3 pixel size. Can be stacked with other sizes.
+        "size16": "<hided>", //16 pixel size. Can be stacked with other sizes.
+        "size24": "<hided>", //24 pixel size. Can be stacked with other sizes.
+        "size64": "<hided>", //64 pixel size. Can be stacked with other sizes.
+        "sizeX": "<hided>", //Size of the X axis. Attention: Because form can be smaller due mobile screen orientation, x axis may change with y size of sizeX property. Can be ctacked with other sizes.
+        "left_third_sizing_padding": "<hided>", //Push button from left side by 33.3%. In the aftermath controls half and quater sizing padding.
+        "left_half_sizing_padding": "<hided>", //Push button from minimum left size by 50%.
+        "left_quater_sizing_padding": "<hided>", //Push button from minimum left size by 25%.
+        "right_third_sizing_padding": "<hided>", //Push button from right side by 33.3%. In the aftermath controls half and quater sizing padding.
+        "right_half_sizing_padding": "<hided>", //Push button from minimum right size by 50%.
+        "right_quater_sizing_padding": "<hided>", //Push button from minimum right size by 25%.
+        "cubic_indent_minimize_to_y": "<hided>", //Push button from left side to cubic x = y size.
+        "cubic_indent_default": "<hided>", //Push button from right side by y size.
+        "cubic_indent_double": "<hided>" //Push button from right side by double y size
+    },
+    "global_button_controls": {
+        "disable_button": "<hided>", //Disables button panel, but keeps tip content and button background.
+        "disable_pressable_panel": "<hided>", //Disables button ability to be pressable.
+        "show_poster_image": "<hided>", //Transform image to big vertical poster. Image have fill feature enabled.
+        "disable_image_background": "<hided>", //Disables image background.
+        "extend_static_button_image": "<hided>", //Extends static button image to 140%y.
+        "show_pivotal_image": "<hided>", //Transform image to big image between title text and main button text.
+        "style": {
+            "locked": "<hided>", //Transform button into locked button by disabling ability to press and adding locked style.
+            "selected": "<hided>", //Adding small vertical padding on top and white line in the bottom of the button.
+            "alt": "<hided>", //Transform button style into green button style. Also supporting bottom button.
+            "dark": "<hided>", //Transform button style into dark button style.
+            "gray": "<hided>" //Transform button style into gray button style.
+        }
+    },
+    "button_text_and_range_controls": {
+        "text_orientation_left": "<hided>", //Sets button text alignment to left side.
+        "background_text_font_variation": "<hided>", //Sets button background text font to MinecraftTen.
+        "show_advanced_tip": "<hided>", //Shows advanced tip instead a common tip.
+        "range_controls": {
+            "default_text": [ "<from>", "<to>" ],
+            "side_text": [ "<from>", "<to>" ],
+            "title_text": [ "<from>", "<to>" ],
+            "background_text": [ "<from>", "<to>" ],
+            "tip_text": [ "<from>", "<to>" ],
+            "advanced_tip_button": [ "<from>", "<to>" ]
+        }
+    },
+    "title_bindings": {
+        "show_bottom_buttons_panel": "<hided>", //Enables bottom buttons content panel.
+        "show_search_bar": "<hided>", //Enables search bar.
+        "search_bar_range_controls": {
+            "place_holder": [ "<from>", "<to>" ],
+            "search_bar_title": [ "<from>", "<to>" ]
+        }
+    },
+    "additional_buttons_control": {
+        "define_bottom_button": "<hided>", //Defines button as bottom button.
+        "define_header_button": "<hided>" //Defines button as header button.
+    },
+
+    "custom_form_properties": {
+        "title_bindings": {
+            "add_additional_space": "<hided>" //Adds aditional space in the end. It is used for such cases when your dropdown is at the very bottom and it does not have enough space in the scroll.
+        },
+        "range_selection": {
+            "group_title_text": [ "<from>", "<to>" ] //Title text of custom item. Attention! If you are using a slider, the slider value will not be visible, as it is overlaid on top of the entire text.
+        }
+    }
+
+    //==================================
+    //  Bindings count (Old):
+    //==================================
+    //
+    //  Button bindings - 73
+    //  Form bindings - 8
+    //  Bottom button bindings - 9
+    //
+    //==================================
+    //  Total bindings in code - 90
+    //==================================
+    //
+    //  Old data, now is around 100
+    //  in total =)
+    //
+    //==================================
+}
