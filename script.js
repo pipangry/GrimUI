@@ -19,8 +19,6 @@ let previousIndex = 0;
 const mainPanel = document.querySelector('.image-panel');
 const loader = document.getElementById('imageLoader');
 
-loader.style.display = 'block';
-
 const imgPromises = images.map((src) => {
     return new Promise((resolve) => {
         const img = document.createElement('img');
@@ -69,7 +67,7 @@ function loadContent(fileName) {
     const loading = document.getElementById('contentLoader');
     const contentDiv = document.getElementById('content');
 
-    loading.style.display = 'block';
+    loading.style.display = 'flex';
     contentDiv.innerHTML = '';
 
     fetch(fileName)
