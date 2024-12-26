@@ -64,10 +64,16 @@ header {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 20px; 
     box-sizing: border-box;
     max-width: 100%;
+}
+
+@media (max-width: 400px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
 }
 
 .grid-block {
