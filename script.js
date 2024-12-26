@@ -17,7 +17,7 @@ const images = [
 let currentIndex = 0;
 let previousIndex = 0; 
 const mainPanel = document.querySelector('.image-panel');
-const loader = document.getElementById('loader');
+const loader = document.getElementById('imageLoader');
 
 loader.style.display = 'block';
 
